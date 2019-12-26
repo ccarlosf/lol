@@ -1,4 +1,6 @@
+import awkward.hero.Camille;
 import awkward.hero.Diana;
+import awkward.hero.Irelia;
 
 import java.util.Scanner;
 
@@ -13,9 +15,19 @@ public class Main {
      */
     public static void main(String[] args) {
         String name = Main.getPlayerInput();
-        if (name.equals("Diana")) {
-            Diana diana = new Diana();
-            diana.r();
+        switch (name) {
+            case "Diana":
+                Diana diana = new Diana();
+                diana.r();
+                break;
+            case "Irelia":
+                Irelia irelia = new Irelia();
+                irelia.r();
+                break;
+            case "Camille":
+                Camille camille = new Camille();
+                camille.r();
+                break;
         }
     }
 

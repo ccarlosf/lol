@@ -1,45 +1,45 @@
 package awkward.hero;
 
 /**
- * @description: 英雄皎月 Diana
+ * @description: 英雄刀妹 Irelia
  * @author: Created by ccarlos
  * @date: 2019/12/26 22:04
  */
-public class Diana {
+public class Irelia {
 
     /**
-     * @description: Diana技能Q
+     * @description: Irelia技能Q
      * @author: ccarlos
      * @date: 2019/12/26 22:07
      */
     public void q() {
-        System.out.println("Diana Q");
+        System.out.println("Irelia Q");
     }
 
     /**
-     * @description: Diana技能W
+     * @description: Irelia技能W
      * @author: ccarlos
      * @date: 2019/12/26 22:07
      */
     public void w() {
-        System.out.println("Diana W");
+        System.out.println("Irelia W");
     }
 
     /**
-     * @description: Diana技能E
+     * @description: Irelia技能E
      * @author: ccarlos
      * @date: 2019/12/26 22:07
      */
     public void e() {
-        System.out.println("Diana E");
+        System.out.println("Irelia E");
     }
 
     /**
-     * @description: Diana技能R
+     * @description: Irelia技能R
      * @author: ccarlos
      * @date: 2019/12/26 22:07
      */
     public void r() {
-        System.out.println("Diana R");
+        System.out.println("Irelia R");
     }
 }

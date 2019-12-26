@@ -1,11 +1,11 @@
 package awkward.hero;
 
 /**
- * @description: 英雄皎月 Diana
+ * @description: 英雄青钢影 Camille
  * @author: Created by ccarlos
  * @date: 2019/12/26 22:04
  */
-public class Diana {
+public class Camille {
 
     /**
      * @description: Diana技能Q
@@ -13,7 +13,7 @@ public class Diana {
      * @date: 2019/12/26 22:07
      */
     public void q() {
-        System.out.println("Diana Q");
+        System.out.println("Camille Q");
     }
 
     /**
@@ -22,7 +22,7 @@ public class Diana {
      * @date: 2019/12/26 22:07
      */
     public void w() {
-        System.out.println("Diana W");
+        System.out.println("Camille W");
     }
 
     /**
@@ -31,7 +31,7 @@ public class Diana {
      * @date: 2019/12/26 22:07
      */
     public void e() {
-        System.out.println("Diana E");
+        System.out.println("Camille E");
     }
 
     /**
@@ -40,6 +40,6 @@ public class Diana {
      * @date: 2019/12/26 22:07
      */
     public void r() {
-        System.out.println("Diana R");
+        System.out.println("Camille R");
     }
 }
