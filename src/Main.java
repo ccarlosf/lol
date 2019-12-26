@@ -1,19 +1,20 @@
-import awkward.hero.Camille;
-import awkward.hero.Diana;
-import awkward.hero.Irelia;
+import abstraction.ISkill;
+import abstraction.hero.Camille;
+import abstraction.hero.Diana;
+import abstraction.hero.Irelia;
 
 import java.util.Scanner;
 
 public class Main {
 
     /**
-     * @description: 主函数入口
+     * @description: 第一版代码主函数入口
      * @author: ccarlos
      * @date: 2019/12/26 22:08
      * @param: args
      * @return: void
      */
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
         String name = Main.getPlayerInput();
         switch (name) {
             case "Diana":
@@ -28,7 +29,34 @@ public class Main {
                 Camille camille = new Camille();
                 camille.r();
                 break;
+            default:
         }
+    }*/
+
+    /**
+     * @description: interface抽象风格 主函数入口
+     * @author: ccarlos
+     * @date: 2019/12/26 22:29
+     * @param: args
+     * @return: void
+     */
+    public static void main(String[] args) throws Exception {
+        String name = Main.getPlayerInput();
+        ISkill iSkill;
+        switch (name) {
+            case "Diana":
+                iSkill = new Diana();
+                break;
+            case "Irelia":
+                iSkill = new Irelia();
+                break;
+            case "Camille":
+                iSkill = new Camille();
+                break;
+            default:
+                throw new Exception();
+        }
+        iSkill.r();
     }
 
     /**
