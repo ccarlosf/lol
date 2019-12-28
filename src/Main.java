@@ -73,6 +73,9 @@ public class Main {
         String name = Main.getPlayerInput();
         ISkill iSkill = HeroFactory.getHero(name);
         iSkill.r();
+
+        // 改动配置文件 OCP
+        // 配置文件
         // 抽象工厂
         // IHeroFactory
         // spring ioc
