@@ -9,6 +9,10 @@ public class A {
 
     private IC ic;
 
+    public A(IC ic) {
+        this.ic = ic;
+    }
+
     /**
      * @description: print方法
      * @author: ccarlos
@@ -21,5 +25,9 @@ public class A {
         // interface
 //        c.test1();
 //        System.out.println("This is Class A");
+    }
+
+    public void setIc(IC ic) {
+        this.ic = ic;
     }
 }
