@@ -13,6 +13,10 @@ public class A {
         this.ic = ic;
     }
 
+    public A(){
+
+    }
+
     /**
      * @description: print方法
      * @author: ccarlos
