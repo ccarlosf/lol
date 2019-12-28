@@ -71,6 +71,10 @@ public class Main {
         String name = Main.getPlayerInput();
         ISkill iSkill = HeroFactory.getHero(name);
         iSkill.r();
+        // 抽象工厂
+        // IHeroFactory
+        // spring ioc
+        // ApplicationContext
     }
 
     /**
