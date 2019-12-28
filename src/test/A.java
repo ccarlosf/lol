@@ -8,6 +8,7 @@ package test;
 public class A {
 
     private IC ic;
+//    private IB ib;
 
     public A(IC ic) {
         this.ic = ic;

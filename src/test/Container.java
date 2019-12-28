@@ -19,4 +19,5 @@ public class Container {
         A a1 = new A();
         a1.setIc(ic);
     }
+    // 装配
 }
