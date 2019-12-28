@@ -1,8 +1,8 @@
-import factory.ISkill;
+import reflect.ISkill;
 import abstraction.hero.Camille;
 import abstraction.hero.Diana;
 import abstraction.hero.Irelia;
-import factory.HeroFactory;
+import reflect.HeroFactory;
 
 import java.util.Scanner;
 
@@ -61,11 +61,13 @@ public class Main {
     }*/
 
     /**
-     * @description: 工厂模式分类对象实例化 主函数入口
+     * @description: 工厂模式分类对象实例化
+     *                 通过反射机制消除所有的变化
+     *                 主函数入口
      * @author: ccarlos
      * @date: 2019/12/28 10:48
      * @param: args
-     * @return: void
+     * @return: voidI
      */
     public static void main(String[] args) throws Exception {
         String name = Main.getPlayerInput();
