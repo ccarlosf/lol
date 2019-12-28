@@ -24,6 +24,7 @@ public class HeroFactory {
         // 类是对象的抽象
         // 对象 类 元类
         // reflect.hero.Irelia
+        // 正向思维
         String classStr = "reflect.hero." + name;
         Class<?> cla = Class.forName(classStr);
         Object obj = cla.newInstance();

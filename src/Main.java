@@ -77,6 +77,8 @@ public class Main {
         // IHeroFactory
         // spring ioc
         // ApplicationContext
+        // ApplicationContext ctx = new ClassPathXmlApplicationContext("")
+        // object = ctx.getBean("")
     }
 
     /**
