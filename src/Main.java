@@ -1,7 +1,8 @@
-import abstraction.ISkill;
+import factory.ISkill;
 import abstraction.hero.Camille;
 import abstraction.hero.Diana;
 import abstraction.hero.Irelia;
+import factory.HeroFactory;
 
 import java.util.Scanner;
 
@@ -40,7 +41,7 @@ public class Main {
      * @param: args
      * @return: void
      */
-    public static void main(String[] args) throws Exception {
+ /*   public static void main(String[] args) throws Exception {
         String name = Main.getPlayerInput();
         ISkill iSkill;
         switch (name) {
@@ -56,6 +57,19 @@ public class Main {
             default:
                 throw new Exception();
         }
+        iSkill.r();
+    }*/
+
+    /**
+     * @description: 工厂模式分类对象实例化 主函数入口
+     * @author: ccarlos
+     * @date: 2019/12/28 10:48
+     * @param: args
+     * @return: void
+     */
+    public static void main(String[] args) throws Exception {
+        String name = Main.getPlayerInput();
+        ISkill iSkill = HeroFactory.getHero(name);
         iSkill.r();
     }
 
