@@ -71,6 +71,7 @@ public class Main {
      */
     public static void main(String[] args) throws Exception {
         String name = Main.getPlayerInput();
+        //依赖倒置的应用 不依赖具体的实现，而是依赖抽象
         ISkill iSkill = HeroFactory.getHero(name);
         iSkill.r();
 
